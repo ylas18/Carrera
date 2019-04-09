@@ -8,6 +8,7 @@ package com.mycompany.carrera;
 /**
  *
  * @author Yesid Avila
+ * @author Laura Gonzalez
  */
 public class Main {
 

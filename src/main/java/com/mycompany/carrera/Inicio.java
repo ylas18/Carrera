@@ -13,10 +13,12 @@ import java.util.List;
  * @author Yesid Avila
  */
 public class Inicio {
-    
-    ArrayList<Jugador> listaJugador = new ArrayList<Jugador>();
-    
 
+    ArrayList<Jugador> listaJugador = new ArrayList<Jugador>();
+
+    /**
+     * metodo le cual llena la lista de jugadores e inicia los 3 hilos a la vez
+     */
     public void llenarEquipo() {
 
         Equipo equipo1 = new Equipo("Equipo1");
@@ -46,7 +48,7 @@ public class Inicio {
         listaJugador.add(jugador1);
         listaJugador.add(jugador2);
         listaJugador.add(jugador3);
-        
+
         Hilo hilo1 = new Hilo(jugador1, jugador2, jugador3);
         Hilo hilo2 = new Hilo(jugador4, jugador5, jugador6);
         Hilo hilo3 = new Hilo(jugador7, jugador8, jugador9);

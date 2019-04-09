@@ -13,13 +13,18 @@ import java.util.ArrayList;
  */
 public class Equipo {
 
+    /**
+     * Variable que almacena el nombre del equipo
+     */
     public String nombre;
+    /**
+     * variable que almacena el total de pasos de los jugadores
+     */
     public int totalPasos;
+    /**
+     * Lista que alamcena cada jugador
+     */
     private ArrayList<Jugador> listaJugadores = new ArrayList<Jugador>();
-
-    
-
-    
 
     public Equipo() {
     }

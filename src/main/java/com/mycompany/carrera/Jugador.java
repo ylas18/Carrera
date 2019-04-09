@@ -10,18 +10,27 @@ package com.mycompany.carrera;
  * @author Yesid Avila
  */
 public class Jugador {
+/**
+ * Indicador de cada equipo
+ */
     public int equipo;
+    /**
+     * Numero de pasos de cada jugador
+     */
     public int pasos;
+    /**
+     * Nombre de cada jugador
+     */
     public String nombre;
-    
-    
-    
-    
-    
-    
-    
-    public Jugador(){}
 
+    public Jugador() {
+    }
+/**
+ * constuctor que inicializa las variables para que puedan ser usadas
+ * @param equipo
+ * @param pasos
+ * @param nombre 
+ */
     public Jugador(int equipo, int pasos, String nombre) {
         this.equipo = equipo;
         this.pasos = pasos;
@@ -35,14 +44,14 @@ public class Jugador {
     public void setEquipo(int equipo) {
         this.equipo = equipo;
     }
-    
+
     public int getPasos() {
         return pasos;
     }
 
     public void setPasos(int pasos) {
         this.pasos = pasos;
-    }    
+    }
 
     public String getNombre() {
         return nombre;

@@ -6,9 +6,10 @@
 package com.mycompany.carrera;
 
 /**
- *
+ *Esta clase lo uqe hace es crear un numero aleatorio el cual es usado en la carrera
  * @author Yesid Avila
  */
+
 public class Random {
 
     public int numero;
